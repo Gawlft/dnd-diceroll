@@ -15,7 +15,7 @@ def mainMenu():
         print('Sharp your blade and get your scrolls, combat to death shall it be!')
         while True:  # This is the main loop of the attacking action
             print('What is the target Armor Class?')
-            a_c= int(input())
+            a_c = int(input())
             print('What is the to hit bonus from the attacker?')
             attack_roll = random.randint(1, 20)
             to_hit_value = int(input())
